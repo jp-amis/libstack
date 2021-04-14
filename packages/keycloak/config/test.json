@@ -1,9 +1,0 @@
-{
-  "VERBOSE": false,
-  "PORT": 8875,
-  "KEYCLOAK_ENABLED": true,
-  "KEYCLOAK_AUTH_URL":  "http://localhost:8080/auth",
-  "KEYCLOAK_CLIENT_ID": "libstack",
-  "KEYCLOAK_CLIENT_SECRET": "b71720d8-57d9-4d46-b7ca-7e07ae775539",
-  "KEYCLOAK_REALM": "libstack-test"
-}
