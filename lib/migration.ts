@@ -62,7 +62,7 @@ export default class SequelizeMigration {
    * Syncs the database
    */
   async sync() {
-    await this.Migration.sync({ force: false });
+    // await this.Migration.sync({ force: false });
     for (const dbModule of this.modules) {
       await this.syncModule(dbModule);
     }
